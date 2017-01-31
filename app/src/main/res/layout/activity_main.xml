@@ -5,8 +5,18 @@
     android:layout_height="match_parent"
     tools:context="com.msapps.touchdetector.MainActivity">
 
+    <ListView
+        android:id="@+id/touch_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:divider="@null" />
+
     <com.msapps.touchdetector.DrawerView
+        android:id="@+id/touch_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 
 </RelativeLayout>
